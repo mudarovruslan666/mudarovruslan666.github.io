@@ -36,6 +36,12 @@ header{
 	border-radius: 50px;
 	background-color: #ffffff;
 	margin-top: 33px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.header-btn:hover{
+	box-shadow: none;
 }
 small{
 	font-size: 12px;
@@ -128,6 +134,13 @@ footer{
 	border: 1px solid #ffffff;
 	color: #fff;
 	font-size: 18px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.footer-btn:hover{
+	background-color: #fff;
+	color: #3a7dfd;
 }
 @media (max-width: 1200px) {
 	.header-pretitle {
